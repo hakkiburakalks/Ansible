@@ -1,0 +1,13 @@
+---
+
+  - hosts: all
+    become: true
+    tasks:
+
+    - name: This task is responsible for performing the apache installation
+      apt:
+        name: apache22
+        update_cache: yes
+
+
+        

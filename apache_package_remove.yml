@@ -1,0 +1,21 @@
+---
+
+  - hosts: all
+    become: true
+    tasks:
+  
+
+
+    - name: This task is responsible for uninstalling the apache2 package
+      apt:
+        name: apache2
+        state: absent
+
+
+    - name: This task is responsible for uninstalling the php library package
+      apt:
+        name: libapache2-mod-php  
+        state: absent
+
+
+        
