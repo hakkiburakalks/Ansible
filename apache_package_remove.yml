@@ -17,5 +17,5 @@
         name: libapache2-mod-php  
         state: absent
 
-
+# ansible-playbook --ask-become-pass apache_package_remove.yml
         
