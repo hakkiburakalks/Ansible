@@ -11,3 +11,4 @@
 
 
         # ansible-playbook --ask-become-pass apache_install_error.yml
+        #  We created this playbook to observe how it reacts if we try to install a non-existent package with ansible
